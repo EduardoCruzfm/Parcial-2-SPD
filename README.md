@@ -9,7 +9,7 @@ Segundo parcial SPD
 ## Integrantes 
 - Eduardo Cruz
 
-## Proyecto: Modelo de montacarga funcional.
+## Proyecto: Sistema de incendio.
 ![Tinkercad](./img/Circuito.jpg)
 
 
