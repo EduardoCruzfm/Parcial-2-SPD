@@ -15,8 +15,8 @@ Segundo parcial SPD
 
 ## Descripción
 El sistema de alarma se activa con el control remoto [IR Remote] y el sensor [IR Sensor] que es el encagado de leer las señales del control, con el Boton rojo (Tecla_on) enciende el LCD y con el boton 0 (Tecla_0) apaga el LCD.
-Tiene 2 modos el sistemas de incendio, el modo uno[incendio] se activa con el boton 1 (Tecla_1) su funcion es solo modo incendio y
-el modo dos[estacion_del_año] se activa con el boton 2 (Tecla_2) su funciones es sistemas de incendio mas el modo de 
+Tiene 2 modos el sistemas de incendio, el modo uno [INCENDIO] se activa con el boton 1 (Tecla_1) su funcion es solo modo incendio y
+el modo dos [ESTACION_DEL_AÑO] se activa con el boton 2 (Tecla_2) su funciones es sistemas de incendio mas el modo de 
 temperatura actual y la estación del año en el display LCD.
 En caso de aver incendio se activa el servo motor a una posicion de 180°.
 Todo este comportamiento depende de la lectura del sensor de temperatura en el momento actual.
@@ -38,8 +38,6 @@ LED_VERDE
 - El define para el sensor de temperatura:
 SENSOR_TEMP 
  
-
-/
 
 //FUNCIONES
 
@@ -93,7 +91,6 @@ Servo Servo1;
 
 //LCD
 int seconds = 0;
-char* txt;
 
 //PIN SERVOS
 int servoPin = 10;
